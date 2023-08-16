@@ -1,3 +1,6 @@
+//  @see: https://en.wikipedia.org/wiki/Introsort
+//  @see: https://www.techiedelight.com/introsort-algorithm/
+
 #pragma once
 #ifndef INTROSORT_H
 #define INTROSORT_H
