@@ -2,7 +2,6 @@ all: main
 
 CXX = clang++
 #override CXXFLAGS += -g -Wno-everything
-#override CXXFLAGS += -g -Wno-everything
 override CXXFLAGS += -g -Wall -Wpedantic -Werror=vla -fsanitize=address -std=gnu++2b -static-libsan -pthread -lm
 #-Wl,--print-memory-usage
 
